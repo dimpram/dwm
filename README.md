@@ -12,3 +12,20 @@ Included patches:
 | [cfacts](https://dwm.suckless.org/patches/cfacts/dwm-cfacts-6.2-1.diff)                                          |
 
 If you want to learn more about this build, visit my [dotfiles](https://github.com/dimpram/.dotfiles)
+
+
+## Installation
+
+Clone the repo
+```
+git clone git@github.com:dimpram/dwm.git ~/.local/src/dwm
+```
+
+Build it with
+
+```
+sudo make clean install
+```
+
+## License
+[View license](https://github.com/dimpram/dwm/blob/main/LICENSE)
