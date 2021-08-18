@@ -2,6 +2,8 @@
 
 This is my custom build of suckless DWM. You can find more about the original project [here](https://dwm.suckless.org/).
 
+![2021-08-18](https://user-images.githubusercontent.com/44473195/129907296-3e5dafe1-1e4e-4b1b-aa82-b3736f970781.png)
+
 Included patches:
 
 | Patches                                                                                                          |
