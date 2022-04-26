@@ -2,7 +2,7 @@
 #include <X11/XF86keysym.h>
 /* appearance */
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
-static const unsigned int gappx     = 30;       /* gaps between windows */
+static const unsigned int gappx     = 25;       /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 0;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -64,8 +64,8 @@ static const char *filemgr[]    = { "nautilus", NULL };
 static const char *volup[]      = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%",     NULL };
 static const char *voldown[]    = { "/usr/bin/pactl", "set-sink-volume", "0", "-5%",     NULL };
 static const char *volmute[]    = { "/usr/bin/pactl", "set-sink-mute",   "0", "toggle",  NULL };
-static const char *brightdown[] = { "xbacklight", "-dec", "5",  NULL };
-static const char *brightup[] 	= { "xbacklight", "-inc", "5",  NULL };
+static const char *brightdown[] = { "light", "-U", "5",  NULL };
+static const char *brightup[] 	= { "light", "-A", "5",  NULL };
 static const char *scrshot[]   	= { "scrot", "--select", "%Y-%m-%d.png", NULL };
 static const char *status[]     = { "status", NULL };
 
