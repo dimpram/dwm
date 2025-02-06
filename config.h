@@ -2,7 +2,7 @@
 #include <X11/XF86keysym.h>
 /* appearance */
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
-static const unsigned int gappx     = 25;       /* gaps between windows */
+static const unsigned int gappx     = 20;       /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 0;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -29,7 +29,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Signal",   "signal",   "Signal",   1 << 8,       0,           -1 },
+	{ NULL,       NULL,       NULL,       0,            False,       -1 },
 };
 
 /* layout(s) */
